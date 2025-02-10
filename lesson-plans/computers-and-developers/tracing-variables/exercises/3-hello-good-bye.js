@@ -6,15 +6,15 @@
 
 */
 
-let first = 'Pieter';
-let last = 'Rabbit';
+let first = 'Pieter'; // declare and initialize
+let last = 'Rabbit'; // declare and initialize
 
-let fullName = first + ' ' + last;
+let fullName = first + ' ' + last;  // declare and initialize
 
-console.log(fullName);
+console.log(fullName); // show fullName variable in console
 
-let greeting = 'hello ' + fullName;
+let greeting = 'hello ' + fullName; // declare and initialize
 
-greeting = 'good bye ' + fullName;
+greeting = 'good bye ' + fullName;   // assign variable to a new value
 
-console.log(greeting);
+console.log(greeting); // show greeting variable in console
