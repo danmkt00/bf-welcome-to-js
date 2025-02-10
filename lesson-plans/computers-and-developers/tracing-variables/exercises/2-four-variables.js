@@ -11,20 +11,64 @@
 
 // trace the program a few times with different values
 
-let a = 'Pieter';
-// let a = 'Blake';
+/* 
+declare let a
+initialize a = "Blake"
+*/
+
+// let a = 'Pieter';
+let a = 'Blake';
 // let a = 'George';
 
-let b = 'Rabbit';
+
+/* 
+declare let b
+initialize a = "Schoenberg"
+*/
+
+//let b = 'Rabbit';
 // let b = 'Wozzeck';
-// let b = 'Schoenberg';
+let b = 'Schoenberg';
+
+/*
+read a
+operation (_ + _) (Blake +)
+read b
+operation (_ + _) (Blake + Schoenberg)
+declare let c
+initialize c = "Blake Schoenberg"
+*/
 
 let c = a + ' ' + b;
 
+
+/*
+read c
+operation (_ + _) (hello + Blake Schoenberg)
+declare let d
+initialize d = "hello Blake Schoenberg"
+*/
+
 let d = 'hello ' + c;
+
+/*
+read d
+log call = "hello Blake Schoenberg"
+*/
 
 console.log(d);
 
+/*
+read c
+operation (_ + _) (good bye + Blake Schoenberg)
+asign d = "good bye Blake Schoenberg"
+*/
+
 d = 'good bye ' + c;
+
+/*
+read d
+log call = "good bye Blake Schoenberg"
+*/
 
 console.log(d);
