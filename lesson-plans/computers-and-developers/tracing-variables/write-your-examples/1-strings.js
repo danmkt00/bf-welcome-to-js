@@ -14,9 +14,8 @@ declared, initialized, read , reassigned,...
 let name = 'Daniel'; //declare and initialize
 console.log(name); //read name
 
-name = "Sam"; //reassign 
+name = 'Sam'; //reassign
 console.log(name); //read name
 
-let message = "hello " + name; //declare and initialize + operation (_ + _) + read name
+let message = 'hello ' + name; //declare and initialize + operation (_ + _) + read name
 console.log(message); //read message
-
