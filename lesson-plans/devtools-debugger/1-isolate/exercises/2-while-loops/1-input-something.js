@@ -3,6 +3,7 @@
 let input = null;
 while (input === null) {
   input = prompt('input something:');
+  input = null;
 }
 
 alert('thank you!');

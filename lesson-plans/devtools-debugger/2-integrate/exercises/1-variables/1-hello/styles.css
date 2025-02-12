@@ -5,3 +5,12 @@
   height: 5em;
   width: 20em;
 }
+
+#user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+#user-info #the-name {
+  margin-bottom: 10px;
+}

@@ -10,9 +10,9 @@ declared, initialized, read , reassigned,...
 let a = undefined; //initialize and declare
 let b = undefined; //initialize and declare
 
-console.log(a,b); // read a and b
+console.log(a, b); // read a and b
 
-a = null; //reassign 
-b = null; //reassign 
- 
-console.log(a,b); // read a and b
+a = null; //reassign
+b = null; //reassign
+
+console.log(a, b); // read a and b
