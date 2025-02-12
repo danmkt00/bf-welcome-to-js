@@ -5,12 +5,16 @@ while (text === null) {
   text = prompt('enter some text, each character will be doubled:');
 }
 
-let doubled = '';
+let doubledEach = '';
+let doubledBetween = '';
 for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar;
+  doubledEach = doubledEach + nextChar + '‐' + nextChar + '‐';
+  doubledBetween = doubledBetween + nextChar + nextChar + '‐';
 }
 
-alert(doubled);
+alert(doubledEach);
+alert(doubledBetween);
+
 
 /*  ===== Challenges =====
   - Add an hyphen after each character.
