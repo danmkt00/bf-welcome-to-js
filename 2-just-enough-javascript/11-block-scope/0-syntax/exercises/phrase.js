@@ -30,6 +30,7 @@ let phrase = '';
 
 
 console.log(phrase === 'hello world');
+console.log(phrase);
 
 
 }
