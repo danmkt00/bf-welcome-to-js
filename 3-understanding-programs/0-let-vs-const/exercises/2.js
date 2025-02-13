@@ -17,24 +17,23 @@ console.log('-- begin --');
     the variable is declared with a value and never reassigned
 
 */
-
-_;
+const x = 'a';
+let y = 'b';
+let z;
 console.log(x); // should print 'a'
 
-_;
 console.log(y); // should print 'b'
 
 console.log(x); // should print 'a'
 
-_;
 console.log(z); // should print undefined
 
 console.log(y); // should print 'b'
 
-_;
+z = 'c';
 console.log(z); // should print 'c'
 
-_;
+y = 'bd'
 console.log(y); // should print 'bd'
 
 console.log(x); // should print 'a'
