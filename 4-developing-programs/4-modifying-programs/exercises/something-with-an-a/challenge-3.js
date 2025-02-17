@@ -8,15 +8,16 @@
   upper or lower case is your choice
 */
 
-const userInput = prompt('please enter something with an "a" in it');
+const word = 'coffee';
+const userInput = prompt('please enter something with an "' + word + '" in it');
 
 let reaction;
 if (userInput === null || userInput === '') {
   reaction = 'nothing!  why !!! ??? !!!';
-} else if (userInput.includes('a')) {
+} else if (userInput.toLowerCase().includes(word)) {
   reaction = '"' + userInput + '" is perfect!';
 } else {
-  reaction = '"' + userInput + '" has no "a" in it';
+  reaction = '"' + userInput + '" has no "' + word + '" in it';
 }
 
 alert(reaction);

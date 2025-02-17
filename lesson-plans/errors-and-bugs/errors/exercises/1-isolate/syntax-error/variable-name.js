@@ -1,27 +1,21 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
-
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected number
+    at evaller.onload
 
-  location:
+  location: line 26
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: you cannot start the name of the variable with a number
 
-  the fix(es):
+  the fix(es): spell 3 with letters
 */
 
-
-const 3 = 'three';
-
-
+const three = 'three';

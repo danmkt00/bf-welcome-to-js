@@ -17,6 +17,6 @@
   the fix(es):
 */
 
-welf = 'ingrad';
+const welf = 'ingrad';
 
 console.log(welf);

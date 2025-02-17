@@ -35,7 +35,7 @@ let message = 'you entered "';
 while (true) {
   const input = prompt('enter something');
 
-  if (input === null && input.length === 0) {
+  if (input !== null && input.length !== 0) {
     message = input + '"';
     break;
   }

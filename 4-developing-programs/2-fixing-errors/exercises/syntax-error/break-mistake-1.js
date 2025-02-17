@@ -21,7 +21,6 @@ const userName = 'wingdoz';
 
 if (userName.length > 3) {
   console.log(userName);
-  break;
 }
 
 

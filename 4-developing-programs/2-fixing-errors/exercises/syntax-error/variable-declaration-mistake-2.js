@@ -19,7 +19,7 @@
 
 const userName = 'qopiznu';
 
-const path;
+let path;
 
 if (userName.length > 4) {
   path = 'if';

@@ -1,26 +1,21 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Failed to execute 'appendChild' on 'Node': Invalid or unexpected token
+    at evaller.onload
 
-  location:
+  location: line 63
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: not the right way to declare a variable
 
-  the fix(es):
+  the fix(es): put everything in variable a in one line
 */
 
-const a = 'this is
-two lines';
-
-
+const a = 'this is\n two lines';

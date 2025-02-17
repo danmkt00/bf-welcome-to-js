@@ -6,18 +6,19 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
+    at evaller.onload
 
-  location:
+  location: line 33
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: using + instead of = for declaring the variable
 
-  the fix(es):
+  the fix(es): replace + with =
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +30,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

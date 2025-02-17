@@ -19,6 +19,6 @@
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

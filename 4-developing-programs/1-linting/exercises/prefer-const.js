@@ -9,7 +9,7 @@
 */
 
 let input = null;
-while (input === null) {
+while (!input) {
   input = prompt('enter something, it will be broken');
 }
 

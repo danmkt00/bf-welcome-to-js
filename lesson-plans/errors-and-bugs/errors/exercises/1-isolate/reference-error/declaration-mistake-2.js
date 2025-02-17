@@ -3,28 +3,28 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: Cannot access 'isValidUserName' before initialization
 
-  location:
+  location: line 24
 
-  life cycle:
+  life cycle: execution phase
 
-  the mistake:
+  the mistake: declaration of the variable after reading it
 
-  the fix(es):
+  the fix(es): declare isValidUserName before reading
 */
 
 const userName = 'chiobin';
+let isValidUserName;
+
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
   isValidUserName = true;
 }
-
-let isValidUserName;
 
 if (userName.length <= 3) {
   isValidUserName = false;
