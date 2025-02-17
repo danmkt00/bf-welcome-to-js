@@ -17,6 +17,6 @@
   the fix(es):
 */
 
-const userInput = null;
+const userInput = 'null';
 
 console.log(userInput.length);

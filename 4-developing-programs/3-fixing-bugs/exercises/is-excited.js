@@ -41,7 +41,7 @@ while (input === null) {
 
 let isExcited = false;
 for (const char of input) {
-  if (char !== '!') {
+  if (char === '!') {
     isExcited = true;
     break;
   }

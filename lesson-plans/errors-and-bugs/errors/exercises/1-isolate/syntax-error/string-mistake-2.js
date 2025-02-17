@@ -1,25 +1,22 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
   environment:
 
-  name:
-  message:
+  name: SyntaxError
+  message: Failed to execute 'appendChild' on 'Node': Unexpected string
+    at evaller.onload
 
-  location:
+  location: line 63
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: using ('') three times in one string
 
-  the fix(es):
+  the fix(es): use ("")
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
-
-
+const quotesInQuotes = "remind yourself ''i can do this!'' at least once a day";
+console.log(quotesInQuotes);

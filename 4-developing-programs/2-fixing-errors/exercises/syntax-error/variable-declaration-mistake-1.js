@@ -18,5 +18,4 @@
 */
 
 let tree = 'oak';
-
-let tree = 'birch';
+tree = 'birch';

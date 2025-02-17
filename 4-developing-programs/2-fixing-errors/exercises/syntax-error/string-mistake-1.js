@@ -17,7 +17,7 @@
   the fix(es):
 */
 
-const a = 'this is
-two lines';
+const a = 'this is\n two lines';
+console.log(a);
 
 

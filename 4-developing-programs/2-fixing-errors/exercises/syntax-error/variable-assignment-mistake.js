@@ -18,6 +18,6 @@
 */
 
 let favoriteNumber = 4;
-3 = favoriteNumber;
+favoriteNumber = 3;
 
 

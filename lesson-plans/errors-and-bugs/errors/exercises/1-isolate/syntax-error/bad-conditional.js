@@ -1,33 +1,28 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Failed to execute 'appendChild' on 'Node': Unexpected token '{'
 
-  location:
+  location: line 63
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: using two elses
 
-  the fix(es):
+  the fix(es): in line 27 make the else -> else if
 */
 
-let userName = 'indrogo';
+let userName = 'idgjkghjkg';
 
 if (userName.length < 3) {
   console.log('too short');
-} else (userName.length < 5) {
+} else if (userName.length < 5) {
   console.log('just right');
 } else {
   console.log('too long');
 }
-
-
