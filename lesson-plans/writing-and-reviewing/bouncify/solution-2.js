@@ -23,3 +23,34 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+//in this function i didn't check characters so it is not working as expected
+const bouncifyString = (text) => {
+  let bouncifyText = '';
+
+  for (let i = 0; i < text.length; i++) {
+    if (i % 2 === 0) {
+      bouncifyText += text[i].toUpperCase();
+    } else {
+      bouncifyText += text[i].toLowerCase();
+    }
+  }
+  return bouncifyText;
+};
+
+let input = null;
+while (!input) {
+  input = prompt('enter some text, the letters will be bouncified');
+  if (input === null) {
+    alert('there is no escape!');
+  }
+  if (input === '') {
+    alert('no empty input, try again.');
+  }
+}
+
+console.log(input);
+
+console.log(bouncifyString(input));
+
+alert(bouncifyString(input));
