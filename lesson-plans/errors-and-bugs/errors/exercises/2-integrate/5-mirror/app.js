@@ -5,14 +5,14 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
   name: SyntaxError
   message: Invalid left-hand side expression in prefix operation
 
   location: line 23
 
-  life cycle:
+  life cycle: creation phase
 
   the mistake: no " ' ' " inside the console log
 
